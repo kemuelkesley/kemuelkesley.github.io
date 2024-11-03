@@ -12,8 +12,10 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
   position: relative;
-  background: transparent;
+  background: transparent;  
 }
+
+
 
 body::before {
   content: "";
@@ -24,6 +26,7 @@ body::before {
   right: 0;
   top: 0;
   height: 100vh;
+ 
 }
 
 @media (min-width: 1024px) {
