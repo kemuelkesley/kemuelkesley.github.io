@@ -1099,3 +1099,15 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+
+.custom-image {
+  width: 100%; /* Largura padrão */
+  height: 200px; /* Altura padrão */
+  object-fit: cover; /* Mantém o enquadramento sem distorcer */
+  display: block; /* Remove espaçamento indesejado em imagens inline */
+}
+
+.custom-border { 
+  border-radius: 5px;
+}
