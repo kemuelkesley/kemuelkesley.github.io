@@ -1102,8 +1102,8 @@ section .container {
 
 
 .custom-image {
-  width: 100%; /* Largura padrão */
-  height: 200px; /* Altura padrão */
+  width: 100%;
+  height: 200px;
   object-fit: cover; /* Mantém o enquadramento sem distorcer */
   display: block; /* Remove espaçamento indesejado em imagens inline */
 }
@@ -1111,3 +1111,18 @@ section .container {
 .custom-border { 
   border-radius: 5px;
 }
+
+/* Estilo inicial das divs */
+.info-box {
+  background-color: #f9f9f9; /* Fundo padrão */  
+  border-radius: 8px; /* Bordas arredondadas */  
+  transition: all 0.3s ease; /* Animação suave */
+}
+
+/* Efeito hover para todas as divs */
+.info-box-hover:hover {
+  background-color: #2a5a35; /* Fundo verde */
+ 
+ 
+}
+
