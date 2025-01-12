@@ -1121,8 +1121,28 @@ section .container {
 
 /* Efeito hover para todas as divs */
 .info-box-hover:hover {
-  background-color: #2a5a35; /* Fundo verde */
- 
+  background-color: #2a5a35; /* Fundo verde */ 
  
 }
 
+
+/* pagina about */
+.image-container {
+  overflow: hidden; /* Garante que a imagem não ultrapasse os limites */
+  display: inline-block; /* Ajusta o comportamento do container */
+  border-radius: 20px; /* Aplica bordas arredondadas ao container */
+}
+
+.image-container img {
+  transition: transform 0.3s ease-in-out; /* Animação suave */
+  display: block; /* Remove espaços ao redor da imagem */
+  width: 100%; /* Ajusta o tamanho da imagem */
+}
+
+.image-container img:hover {
+  transform: scale(1.1); /* Aumenta a escala da imagem em 10% */
+}
+
+.about-border {
+  border-radius: 15px;
+}
